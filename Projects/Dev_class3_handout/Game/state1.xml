@@ -1,0 +1,9 @@
+<!-- state file for the game -->
+
+<state>
+
+	<renderer>
+	<camera x="10" y="100">
+	</renderer>
+
+<state/>

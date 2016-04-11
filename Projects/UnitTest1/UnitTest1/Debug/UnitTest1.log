@@ -1,0 +1,11 @@
+﻿Build started 28/04/2015 9:55:07.
+     1>Project "C:\Users\Sergio\Documents\Visual Studio 2013\Projects\UnitTest1\UnitTest1\UnitTest1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\UnitTest1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt unittest1.cpp
+         unittest1.cpp
+     1>c:\users\sergio\documents\visual studio 2013\projects\unittest1\unittest1\unittest1.cpp(4): fatal error C1083: Cannot open include file: ' ../Practica_2/Tree.h ': No such file or directory
+     1>Done Building Project "C:\Users\Sergio\Documents\Visual Studio 2013\Projects\UnitTest1\UnitTest1\UnitTest1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12
