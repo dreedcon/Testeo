@@ -64,17 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="p2DynArray.h" />
-    <ClInclude Include="p2Graph.h" />
-    <ClInclude Include="p2List.h" />
-    <ClInclude Include="p2Map.h" />
-    <ClInclude Include="p2Point.h" />
-    <ClInclude Include="p2Queue.h" />
-    <ClInclude Include="p2Queue2.h" />
-    <ClInclude Include="p2Slist.h" />
-    <ClInclude Include="p2Stack.h" />
-    <ClInclude Include="p2Stack2.h" />
-    <ClInclude Include="p2String.h" />
+    <ClInclude Include="Attributes.h" />
     <ClInclude Include="Utilities.h" />
   </ItemGroup>
   <ItemGroup>

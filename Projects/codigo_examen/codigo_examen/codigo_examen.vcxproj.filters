@@ -15,40 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="p2DynArray.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Utilities.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="p2List.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Graph.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Queue.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2String.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Point.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Queue2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Stack2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Slist.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Map.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Stack.h">
+    <ClInclude Include="Attributes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
