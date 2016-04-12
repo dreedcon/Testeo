@@ -20,6 +20,7 @@ int main()
 	atribBarbarian.gainExp(1);
 	TEST("test gainExp", atribBarbarian.whatIsyourExp() == 1);
 
+	
 
 	printf("\nFailures: %d/%d", failed, done);
 

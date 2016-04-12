@@ -35,6 +35,10 @@ public:
 	//copy constructor
 	Attributes(Attributes& atr){ this->hpMax = atr.hpMax; this->stamMax = atr.stamMax; this->furyMax = atr.furyMax; this->lvlMax = atr.lvlMax; this->damage = atr.damage; this->currentExp = atr.currentExp; this->hpLvl = atr.hpLvl; this->stamLvl = atr.stamLvl; this->furyLvl = atr.furyLvl; }
 
+	//destructor
+	~Attributes(){}
+
+
 	//methods
 	void gainExp(int exp)
 	{
@@ -44,6 +48,16 @@ public:
 	const int whatIsyourExp()
 	{
 		return currentExp;
+	}
+
+	//on build.....
+	void update()
+	{
+		if (currentExp >= expRequired)
+		{
+		
+		}
+	
 	}
 
 };
