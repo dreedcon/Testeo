@@ -14,8 +14,7 @@ private:
 	int furyMax = 0;
 	int lvlMax = 0;
 	int damage = 0;
-
-	int currentExp = 0;
+    int currentExp = 0;
 	int expRequired = 50;
 
 	//propierties * lvl
@@ -40,26 +39,53 @@ public:
 
 
 	//methods
+	void update()
+	{
+		if (currentExp >= expRequired)
+		{
+			//need the change state the player 
+			level++;
+			hpMax += hpLvl;
+			stamMax += stamLvl;
+			furyMax += furyLvl;
+			expRequired += expLvl;
+		}
+	
+	}
+	
 	void gainExp(int exp)
 	{
 		currentExp += exp;
 	}
 
-	const int whatIsyourExp()
+	//tests-----------------------
+	const int whatIsYourExp() const
 	{
 		return currentExp;
 	}
 
-	//on build.....
-	void update()
+	const int whatIsYourHp() const
 	{
-		if (currentExp >= expRequired)
-		{
-		
-		}
-	
+		return hpMax;
 	}
 
+	const int whatIsYourStam() const
+	{
+		return stamMax;
+	}
+
+	const int whatIsYourFury() const 
+	{
+		return furyMax;
+	}
+
+	const int whatIsYourLevel() const 
+	{
+		return level;
+	}
+
+
+	
 };
 
 

@@ -17,10 +17,14 @@ int main()
 	printf("Testing Atributtes ...\n");
 	Attributes atribBarbarian(55, 89, 15, 25, 2, 3, 1, 9);
 
-	atribBarbarian.gainExp(1);
-	TEST("test gainExp", atribBarbarian.whatIsyourExp() == 1);
+	atribBarbarian.gainExp(50);
+	TEST("test gainExp", atribBarbarian.whatIsYourExp() == 50);
 
-	
+	atribBarbarian.update();
+	TEST("test update", atribBarbarian.whatIsYourHp() == 57);
+	TEST("test update", atribBarbarian.whatIsYourStam() == 92);
+	TEST("test update", atribBarbarian.whatIsYourFury() == 16);
+	TEST("test update", atribBarbarian.whatIsYourLevel() == 2);
 
 	printf("\nFailures: %d/%d", failed, done);
 

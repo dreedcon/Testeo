@@ -1,4 +1,4 @@
-﻿Compilación iniciada a las 12/04/2016 13:39:36.
+﻿Compilación iniciada a las 12/04/2016 14:49:31.
      1>Proyecto "D:\Users\sergiosc5\Documents\GitHub\Testeo\Projects\codigo_examen\codigo_examen\codigo_examen.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
@@ -10,4 +10,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:00.83
+Tiempo transcurrido 00:00:00.75
